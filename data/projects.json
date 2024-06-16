@@ -1,6 +1,16 @@
 [{
-    "image": "synteticwa.png",
-    "title": "Synthetic WhatsApp",
-    "description": "Unofficial Whatsapp API",
-    "tag": ["NodeJS", "ExpressJS"]
+    "image": "PersonalWeb.jpg",
+    "title": "Personal Website",
+    "description": ".....",
+    "tag": ["VueJS, NodeJS, ExpressJS"]
+}, {
+    "image": "Absensiproject.jpg",
+    "title": "Absensi Project",
+    "description": "A project aimed at managing student attendance. It allows teachers to mark student attendance on the website and also displays student data detected through face detection.",
+    "tag": ["Vue, Javascript, CSS, SCSS"]
+}, {
+    "image": "GFLuxuryCars.jpg",
+    "title": "GF Luxury Car",
+    "description": "A website that provides a wide range of luxury cars for purchase, as well as a wide range of car merchandise, car service services and our original products",
+    "tag": ["VueJS3"]
 }]

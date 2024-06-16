@@ -3,9 +3,9 @@ import {
     createWebHistory
 } from 'vue-router'
 import Home from "@/views/Home.vue"
+import About from "@/views/About.vue"
 import Achievements from "@/views/Achievements.vue"
 import Projects from "@/views/Projects.vue"
-import Skills from "@/views/Skills.vue"
 import Contact from "@/views/Contact.vue"
 
 const router = createRouter({
@@ -15,17 +15,17 @@ const router = createRouter({
         name: 'home',
         component: Home
     }, {
-        path: '/achievements',
-        name: 'achievements',
-        component: Achievements
+        path: '/about',
+        name: 'about',
+        component: About
     }, {
         path: '/projects',
         name: 'projects',
         component: Projects
-    }, {
-        path: '/skills',
-        name: 'skills',
-        component: Skills
+    },  {
+        path: '/achievements',
+        name: 'achievements',
+        component: Achievements
     }, {
         path: '/contact',
         name: 'contact',

@@ -39,16 +39,9 @@
 </template>
 
 <script>
-    import Navbar from "@/components/Navbar.vue"
-    export default {
-        name: 'App',
-        components: {
-            Navbar
-        }
-    }
 </script>
 
 <style>
     @import './assets/css/app.css';
-    @import 'https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css';
+    @import './assets/css/tailwind.css';
 </style>
