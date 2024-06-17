@@ -1,8 +1,8 @@
 [{
     "image": "PersonalWeb.jpg",
     "title": "Personal Website",
-    "description": ".....",
-    "tag": ["VueJS, NodeJS, ExpressJS"]
+    "description": "My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology",
+    "tag": ["VueJS, NodeJS"]
 }, {
     "image": "Absensiproject.jpg",
     "title": "Absensi Project",

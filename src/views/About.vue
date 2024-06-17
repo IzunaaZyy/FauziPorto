@@ -1,18 +1,21 @@
 <template>
   <div class="navbar">
-            <router-link :to="{ name: 'home' }" class="nav-link" style="font-size: 1.7vw;"><b>Home</b></router-link>
-            <router-link :to="{ name: 'about' }" class="nav-link" style="font-size: 1.7vw;"><b>About</b></router-link>
-            <router-link :to="{ name: 'projects' }" class="nav-link" style="font-size: 1.7vw;"><b>Projects</b></router-link>
-            <router-link :to="{ name: 'achievements' }" class="nav-link" style="font-size: 1.7vw;"><b>Achievements</b></router-link>
-            <router-link :to="{ name: 'contact' }" class="nav-link" style="font-size: 1.7vw;"><b>Contact</b></router-link>
-        </div>
+    <router-link :to="{ name: 'home' }" class="nav-link" style="font-size: 2.2vw;"><b>Home</b></router-link>
+    <router-link :to="{ name: 'about' }" class="nav-link" style="font-size: 2.2vw;"><b>About</b></router-link>
+    <router-link :to="{ name: 'projects' }" class="nav-link" style="font-size: 2.2vw;"><b>Projects</b></router-link>
+    <router-link :to="{ name: 'achievements' }" class="nav-link"
+      style="font-size: 2.2vw;"><b>Achievements</b></router-link>
+    <router-link :to="{ name: 'contact' }" class="nav-link" style="font-size: 2.2vw;"><b>Contact</b></router-link>
+  </div>
   <div
     class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mx-3 mb-5">
     <article data-page="about">
 
-      <header>
+  <header>
         <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
           About Me &nbsp;
+          <div class="h-[1px] w-32 bg-amber-200 md:w-96 aos-init aos-animate" data-aos="zoom-in-left"
+            data-aos-duration="600"></div>
         </div>
       </header>
 
@@ -20,15 +23,15 @@
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
           <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://i1.sndcdn.com/avatars-000214125831-5q6tdw-t500x500.jpg" alt="Foto">
+            src="../assets/images/aboutme 500x500.jpg" alt="Foto">
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp; Hi everyone! My name Fauzi Maulana. I'm a web developer from Bandung, West Java. I
-            have 1 year of experience in back-end web development.
+            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Fauzi Maulana. I am a web developer from Bandung, West Java. I have 1 year experience in front-end web development. Currently still a student of SMK with a major in Software Engineering, I have some experience in creating simple software projects, I really enjoy what I'm doing right now, In my opinion, creating a web is not just a job, but it's like pouring out creative ideas from our minds.
+
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp; .....
+            &nbsp; &nbsp; &nbsp; Besides creating websites, I also like to do sports and explore nature. In addition, I am also a positive-minded individual and like to work together in a team.
           </p>
         </div>
 
@@ -51,11 +54,13 @@
           <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5">
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tech Stack</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tech
+                Stack</button>
             </li>
             <li class="mr-2">
               <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
-                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Tools</button>
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }"
+                @click="activeTab = 2">Tools</button>
             </li>
           </ul>
         </div>
@@ -70,7 +75,8 @@
                     :src="item.imageUrl" style="color: transparent;">
                 </div>
                 <div class="flex items-center text-sm md:text-base lg:text-lg">
-                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
+                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name
+                    }}
                   </div>
                   <div
                     class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
@@ -91,7 +97,8 @@
                     :src="item.imageUrl" style="color: transparent;">
                 </div>
                 <div class="flex items-center text-sm md:text-base lg:text-lg">
-                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
+                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name
+                    }}
                   </div>
                   <div
                     class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
