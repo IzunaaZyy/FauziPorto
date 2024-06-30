@@ -32,5 +32,9 @@ const router = createRouter({
         component: Contact
     }, ]
 })
+router.beforeEach((to, from, next) => {
+    document.title = to.meta.title || 'Fauzi Maulana';
+    next();
+  });
 
 export default router;
