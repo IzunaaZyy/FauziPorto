@@ -10,7 +10,7 @@
                     alt="Profile Photo">
                 <div class="absolute inset-0 rounded-full group-hover:bg-opacity-20 transition-all duration-300"></div>
             </div>
-            <h1 class="text-5xl md:text-7xl font-bold tracking-tight text-gray-700 mb-2">FAUZI MAULANA</h1>
+            <h1 class="text-5xl md:text-7xl font-bold text-center tracking-tight text-gray-700 mb-2">FAUZI MAULANA</h1>
             <p class="text-xl md:text-3xl font-light mb-8 text-gray-900">
                 Web <span class="text-blue-500">Developer</span>
             </p>
