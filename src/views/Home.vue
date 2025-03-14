@@ -1,11 +1,5 @@
 <template>
-        <div class="navbar">
-            <router-link :to="{ name: 'home' }" class="nav-link" style="font-size: 2.2vw;"><b>Home</b></router-link>
-            <router-link :to="{ name: 'about' }" class="nav-link" style="font-size: 2.2vw;"><b>About</b></router-link>
-            <router-link :to="{ name: 'projects' }" class="nav-link" style="font-size: 2.2vw;"><b>Projects</b></router-link>
-            <router-link :to="{ name: 'achievements' }" class="nav-link" style="font-size: 2.2vw;"><b>Achievements</b></router-link>
-            <router-link :to="{ name: 'contact' }" class="nav-link" style="font-size: 2.2vw;"><b>Contact</b></router-link>
-        </div>
+       <Navbar />
     <div class="container">
         <div class="home row mx-auto text-center">
             <div class="image">
@@ -30,14 +24,7 @@
     </div>
 </template>
 
-<script>
-import Projects from './../../data/projects.json'
-export default {
-    setup() {
-        return {
-            projects: Projects
-        }   
-    }
-}
+<script setup>
+import Navbar from '../components/Navbar.vue';
 </script>
 

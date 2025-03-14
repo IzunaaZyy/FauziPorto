@@ -1,16 +1,19 @@
 [{
     "image": "PersonalWeb.jpg",
     "title": "Personal Website",
-    "description": "My personal website, I created this website to display my profile, skills and projects. As well as my place to try new technology",
-    "tag": ["VueJS, NodeJS"]
+    "description": "Website pribadi saya, saya membuat website ini untuk menampilkan profil, keterampilan, dan proyek saya. Serta sebagai tempat saya mencoba teknologi baru.",
+    "tag": ["VueJS, NodeJS"],
+    "link": ""
 }, {
     "image": "Absensiproject.jpg",
     "title": "Absensi Project",
-    "description": "A project aimed at managing student attendance. It allows teachers to mark student attendance on the website and also displays student data detected through face detection.",
-    "tag": ["Vue, Javascript, CSS, SCSS"]
+    "description": "Sebuah proyek yang bertujuan untuk mengelola kehadiran siswa. Proyek ini memungkinkan guru untuk menandai kehadiran siswa di situs web serta menampilkan data siswa yang terdeteksi melalui pendeteksian wajah.",
+    "tag": ["Vue, Javascript, CSS, Tailwind"],
+    "link": "https://hadir.smkn4bdg.sch.id"
 }, {
     "image": "GFLuxuryCars.jpg",
     "title": "GF Luxury Car",
-    "description": "A website that provides a wide range of luxury cars for purchase, as well as a wide range of car merchandise, car service services and our original products",
-    "tag": ["VueJS3"]
+    "description": "Sebuah situs web yang menyediakan berbagai macam mobil mewah untuk dibeli, serta beragam merchandise mobil, layanan servis mobil, dan produk asli kami.",
+    "tag": ["VueJS3"],
+    "link": "https://github.com/AlifaGian/GF-Luxury-Cars"
 }]

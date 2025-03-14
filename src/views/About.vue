@@ -1,12 +1,6 @@
 <template>
-  <div class="navbar">
-    <router-link :to="{ name: 'home' }" class="nav-link" style="font-size: 2.2vw;"><b>Home</b></router-link>
-    <router-link :to="{ name: 'about' }" class="nav-link" style="font-size: 2.2vw;"><b>About</b></router-link>
-    <router-link :to="{ name: 'projects' }" class="nav-link" style="font-size: 2.2vw;"><b>Projects</b></router-link>
-    <router-link :to="{ name: 'achievements' }" class="nav-link"
-      style="font-size: 2.2vw;"><b>Achievements</b></router-link>
-    <router-link :to="{ name: 'contact' }" class="nav-link" style="font-size: 2.2vw;"><b>Contact</b></router-link>
-  </div>
+  <Navbar />
+
   <div
     class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mx-3 mb-5">
     <article data-page="about">
@@ -113,6 +107,10 @@
   </div>
 </template>
 
+<script setup>
+  import Navbar from '../components/Navbar.vue';
+
+</script>
 <script>
 export default {
   data() {
