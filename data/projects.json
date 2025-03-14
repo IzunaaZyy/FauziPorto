@@ -6,7 +6,7 @@
     "link": ""
 }, {
     "image": "Absensiproject.jpg",
-    "title": "Absensi Project",
+    "title": "4Presence",
     "description": "Sebuah proyek yang bertujuan untuk mengelola kehadiran siswa. Proyek ini memungkinkan guru untuk menandai kehadiran siswa di situs web serta menampilkan data siswa yang terdeteksi melalui pendeteksian wajah.",
     "tag": ["Vue, Javascript, CSS, Tailwind"],
     "link": "https://hadir.smkn4bdg.sch.id"
